@@ -1,0 +1,34 @@
+{
+   "name":"itadventure/datetime",
+   "description":"A date time helper for laravel, Convert string date and other more",
+   "type":"composer-plugin",
+   "license":"MIT",
+   "homepage":"https://github.com/itadventure/datetime",
+   "authors":[
+      {
+         "name":"ITadventureBD",
+         "email":"dev@itadventurebd.com",
+         "homepage":"http://itadventurebd.com"
+      }
+   ],
+   "require":{
+      "php":">=5.4"
+   },
+   "autoload":{
+      "psr-4":{
+         "Itadventure\\Datetime\\":"src/"
+      }
+   },
+   "extra":{
+      "laravel":{
+         "providers":[
+            "Itadventure\\Datetime\\DateTimeProvider"
+         ],
+         "aliases":{
+            "DT":"Itadventure\\Datetime\\DateTime"
+         }
+      }
+   },
+   "minimum-stability":"dev",
+   "prefer-stable":true
+}
