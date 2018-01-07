@@ -1,7 +1,7 @@
 {
    "name":"itadventure/datetime",
    "description":"A date time helper for laravel, Convert string date and other more",
-   "type":"composer-plugin",
+   "type":"library",
    "license":"MIT",
    "homepage":"https://github.com/itadventure/datetime",
    "authors":[
