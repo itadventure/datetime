@@ -9,7 +9,7 @@ $ composer require itadventure/datetime
 
 If you need to use by alias just put this line into config/app.php
 
-```
+```php
 'DT'      => Itadventure\Datetime\DateTime::class,
 ```
 
